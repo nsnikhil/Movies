@@ -1,0 +1,207 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DetailsTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="vertcalLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="emptyRelativeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="viewPager">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="horizontalLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="horizontalLinearLayoutFlat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:elevation">@dimen/actionBarElevationValue</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="tabBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:elevation">@dimen/actionBarElevationValue</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="drwaerStyle">
+        <item name="android:layout_width">@dimen/drawerWidth</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:dividerHeight">@dimen/drawerDividerHeight</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="circleImageView">
+        <item name="android:layout_width">@dimen/circleImageDiameter</item>
+        <item name="android:layout_height">@dimen/circleImageDiameter</item>
+        <item name="android:layout_marginLeft">@dimen/drawerMarginLeft</item>
+        <item name="android:layout_marginTop">@dimen/drawerMarginTop</item>
+    </style>
+
+    <style name="drawerHeaderText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">@dimen/drawerMarginLeft</item>
+        <item name="android:textSize">@dimen/drawerHeaderTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="drawerItemImage">
+        <item name="android:layout_width">@dimen/drawerItemImageSize</item>
+        <item name="android:layout_height">@dimen/drawerItemImageSize</item>
+        <item name="android:layout_marginLeft">@dimen/drawerImageMargin</item>
+        <item name="android:layout_marginRight">@dimen/drawerImageMargin</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="drawerItemText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/drawerTextMargin</item>
+        <item name="android:textAppearance">?attr/textAppearanceListItem</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="listView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="gridView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:numColumns">2</item>
+    </style>
+
+    <style name="errorImage">
+        <item name="android:layout_width">@dimen/errorImageSize</item>
+        <item name="android:layout_height">@dimen/errorImageSize</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="frameLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="crdv">
+        <item name="android:layout_height">@dimen/cardLayoutHeight</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="crdvImage">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/bposter</item>
+    </style>
+
+    <style name="crdvText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:text">@string/placeHolderName</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/cardViewTextSize</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">@dimen/sixteenPadding</item>
+    </style>
+
+    <style name="profileBanner">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/back</item>
+    </style>
+
+    <style name="profileImageView">
+        <item name="android:layout_width">@dimen/circleImageDiameter</item>
+        <item name="android:layout_height">@dimen/circleImageDiameter</item>
+        <item name="android:layout_marginLeft">@dimen/drawerMarginLeft</item>
+        <item name="android:layout_marginTop">@dimen/drawerMarginTop</item>
+        <item name="android:src">@drawable/profile</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="profileText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/profileTextSize</item>
+        <item name="android:layout_marginRight">@dimen/profileTextPading</item>
+    </style>
+
+    <style name="profileEditText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="profileFavouriteText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/profileFavouriteTextSize</item>
+        <item name="android:padding">@dimen/sixteenPadding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="profileFavouriteDeleteButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/profileTextSize</item>
+        <item name="android:padding">@dimen/sixteenPadding</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:colorButtonNormal">@color/colorAccent</item>
+    </style>
+
+
+    <style name="progressBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="emptyList">
+        <item name="android:layout_height">@dimen/emptyListImageSize</item>
+        <item name="android:layout_width">@dimen/emptyListImageSize</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+</resources>

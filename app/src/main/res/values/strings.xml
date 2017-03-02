@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="openDrawer">open</string>
+    <string name="closeDrawer">close</string>
+    <string name="pagerHeadingTop">Top Movies</string>
+    <string name="pagerHeadingFavourite">Favourites</string>
+    <string name="detailsBundleUriKey">bdukey</string>
+    <string name="deleteall">Delete All</string>
+
+    <!--Profile String-->
+    <string name="profileName">Name</string>
+    <string name="profileEmail">Email Id</string>
+    <string name="profileFavourite">Favourite Count : </string>
+    <!-- -->
+
+    <!--Delete Dialogue-->
+    <string name="warning">WARNING</string>
+    <string name="areyousure">Are you sure you want to delete all items</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <!-- -->
+
+    <!-- -->
+    <string name="cannotDelete">Error while Deleting</string>
+    <string name="deleted">Deleted</string>
+    <!-- -->
+
+    <!--Favourite Added-->
+    <string name="favouriteAdded">Added to Favourites</string>
+    <string name="favouriteCannotAdd">Cannot add to Favourites</string>
+    <string name="favouriteAlreadyPresent">Already Added to Favourites</string>
+    <!-- -->
+
+    <!--delete these strings-->
+    <string name="placeHolderName">PlaceHolder</string>
+    <string name="placeHolderEmail">place.holder@placeholder.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--delete these strings -->
+
+    <string name="prefLabel">Settings</string>
+    <!--ListPrefrence-->
+    <string-array name="prefEntries">
+        <item>Most Popular</item>
+        <item>Highest Rated</item>
+    </string-array>
+    <string-array name="prefValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="prefLisTitle">Sort By</string>
+    <string name="prefListSummary">Sort</string>
+    <string name="prefListDefaultValue">1</string>
+    <string name="prefListKey">sortby</string>
+    <!-- -->
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="actionBarElevationValue">4dp</dimen>
+    <dimen name="drawerWidth">320dp</dimen>
+    <dimen name="drawerHeight">180dp</dimen>
+    <dimen name="drawerDividerHeight">0dp</dimen>
+    <dimen name="circleImageDiameter">70dp</dimen>
+    <dimen name="drawerMarginLeft">16dp</dimen>
+    <dimen name="drawerImageMargin">16dp</dimen>
+    <dimen name="drawerTextMargin">20dp</dimen>
+    <dimen name="drawerMarginTop">38dp</dimen>
+    <dimen name="drawerContentHeight">56dp</dimen>
+    <dimen name="drawerHeaderMarginTop">5dp</dimen>
+    <dimen name="drawerHeaderTextSize">14sp</dimen>
+    <dimen name="drawerItemPadding">8dp</dimen>
+    <dimen name="drawerItemTextPadding">12dp</dimen>
+    <dimen name="drawerItemTextPaddingTop">4dp</dimen>
+    <dimen name="drawerItemTextPaddingLeft">16dp</dimen>
+    <dimen name="drawerItemImageSize">24dp</dimen>
+    <dimen name="errorImageSize">300dp</dimen>
+    <dimen name="twoPaneListWidth">320dp</dimen>
+    <dimen name="cardLayoutHeight">300dp</dimen>
+    <dimen name="cardViewTextSize">14sp</dimen>
+    <dimen name="sixteenPadding">16dp</dimen>
+    <dimen name="profileTextSize">20sp</dimen>
+    <dimen name="profileTextPading">8dp</dimen>
+    <dimen name="profileFavouriteTextSize">30sp</dimen>
+    <dimen name="emptyListImageSize">200dp</dimen>
+</resources>

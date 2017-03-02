@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/emptyRelativeLayout"
+    tools:context="com.nexus.nsnik.movies.FavouriteList">
+
+    <GridView
+        style="@style/gridView"
+        android:id="@+id/listViewFavourite">
+    </GridView>
+
+    <ImageView
+        style="@style/emptyList"
+        android:id="@+id/favouriteEmptyImage"
+        android:src="@drawable/emptyfavourite" />
+
+</RelativeLayout>

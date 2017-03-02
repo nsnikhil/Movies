@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/emptyRelativeLayout"
+    tools:context="com.nexus.nsnik.movies.TopMoviesList">
+
+    <GridView
+        android:id="@+id/listViewTop"
+        style="@style/gridView"></GridView>
+
+    <ProgressBar
+        android:id="@+id/progressTopList"
+        style="@style/progressBar" />
+
+    <ImageView
+        style="@style/emptyList"
+        android:id="@+id/topEmptyImage"
+        android:src="@drawable/nointernet" />
+
+</RelativeLayout>

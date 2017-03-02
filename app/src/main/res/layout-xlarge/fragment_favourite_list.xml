@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/emptyRelativeLayout"
+    tools:context="com.nexus.nsnik.movies.FavouriteList">
+
+    <ImageView
+        style="@style/emptyList"
+        android:id="@+id/favouriteEmptyImage"
+        android:src="@drawable/emptyfavourite" />
+
+    <LinearLayout
+        style="@style/horizontalLinearLayout">
+
+        <GridView
+            style="@style/gridView"
+            android:numColumns="1"
+            android:id="@+id/listViewFavourite"
+            android:layout_width="@dimen/twoPaneListWidth">
+        </GridView>
+
+        <FrameLayout
+            style="@style/frameLayout"
+            android:id="@+id/fovouriteTwoPane"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

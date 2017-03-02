@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/emptyRelativeLayout"
+    tools:context="com.nexus.nsnik.movies.TopMoviesList">
+
+    <LinearLayout
+        style="@style/horizontalLinearLayout">
+
+        <GridView
+            style="@style/gridView"
+            android:numColumns="1"
+            android:layout_width="@dimen/twoPaneListWidth"
+            android:id="@+id/listViewTop">
+        </GridView>
+
+        <FrameLayout
+            style="@style/frameLayout"
+            android:id="@+id/favouriteTwoPane"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

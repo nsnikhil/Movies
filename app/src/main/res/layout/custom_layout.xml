@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    style="@style/vertcalLinearLayout"
+    android:layout_height="wrap_content">
+
+
+    <android.support.v7.widget.CardView
+        style="@style/crdv"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="3dp"
+        card_view:cardMaxElevation="5dp"
+        card_view:cardUseCompatPadding="true">
+
+        <ImageView
+            style="@style/crdvImage"
+            android:id="@+id/itemMoviePoster"/>
+
+        <TextView
+            style="@style/crdvText"
+            android:id="@+id/itemMovieTitle" />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

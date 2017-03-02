@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    style="@style/vertcalLinearLayout"
+    tools:context="com.nexus.nsnik.movies.Profile">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/profileBanner" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileCircleImageView"
+            style="@style/profileImageView"
+            android:layout_marginTop="169dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        style="@style/horizontalLinearLayoutFlat"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/profileText"
+            android:text="@string/profileName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="@string/profileName"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/horizontalLinearLayoutFlat"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/profileText"
+            android:text="@string/profileEmail" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="@string/profileEmail"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+       style="@style/profileFavouriteText"
+        android:id="@+id/profileFavouriteCount"
+        android:text="@string/profileFavourite"/>
+
+    <Button
+        style="@style/profileFavouriteDeleteButton"
+        android:theme="@style/profileFavouriteDeleteButton"
+        android:id="@+id/profileDeleteAllFavouriteCount"
+        android:text="@string/deleteall"/>
+
+
+
+</LinearLayout>

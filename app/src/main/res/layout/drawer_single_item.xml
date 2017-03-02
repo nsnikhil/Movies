@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingTop="@dimen/drawerItemPadding"
+    android:paddingBottom="@dimen/drawerItemPadding"
+    android:layout_height="?attr/listPreferredItemHeight"
+    android:orientation="horizontal">
+
+    <ImageView
+        style="@style/drawerItemImage"
+        android:id="@+id/drawerItemImage"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        style="@style/drawerItemText"
+        android:text="@string/placeHolderName"
+        android:id="@+id/drawerItemName" />
+
+</LinearLayout>
